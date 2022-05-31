@@ -39,7 +39,7 @@ function draw() {
       let bright1 = map(d1, 0, maxD,100, 255);
       //let bright1 = map(d1, 0, maxD, 100, 0);
       translate((-width /2 + 13) + i,0,j);
-      let h = floor(map(sin(-xoff * 2 + offset)*sin(-xoff * 2 + offset),-1,1,1,bh));
+      let h = floor(map(*sin(-xoff * 2 + offset),-1,1,0,bh));
       ambientMaterial((bright + r)/2, (bright + g)/2, (bright + b)/2, 255);
       box(w, h, w);
       pop();

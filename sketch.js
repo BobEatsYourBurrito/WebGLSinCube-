@@ -28,6 +28,9 @@ function draw() {
   for(let j = 0; j < 500; j += w) {
     for(let i = 0; i < 500; i += w) {
       push();
+      r = map(sin(xoff),-1,1,0,255);
+      g = 255
+      b = map(sin(xoff+1),-1,1,0,255);
       //let d = dist(i - mousex, j - mousey ,250,250); //origin to mouse
       let d = dist(i, j,250,250);
       let d1 = dist(i ,j ,250,250);

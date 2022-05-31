@@ -35,7 +35,7 @@ function draw() {
       let d = dist(i, j,250,250);
       let d1 = dist(i ,j ,250,250);
       let offset = map(d, 0, maxD, -wi , wi);
-      let bright = map(d1, 0, maxD, 100, 255);
+      let bright = map(d1, 0, maxD, 0, 255);
       let bright1 = map(d1, 0, maxD,100, 255);
       //let bright1 = map(d1, 0, maxD, 100, 0);
       translate((-width /2 + 13) + i,0,j);

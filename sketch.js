@@ -30,7 +30,7 @@ function draw() {
       push();
       r = map(sin(xoff),-1,1,0,255);
       g = 0;
-      b = map(sin(xoff+1),-1,1,0,255);
+      b = 0; //map(sin(xoff+1),-1,1,0,255);
       //let d = dist(i - mousex, j - mousey ,250,250); //origin to mouse
       let d = dist(i, j,250,250);
       let d1 = dist(i ,j ,250,250);

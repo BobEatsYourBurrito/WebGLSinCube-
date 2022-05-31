@@ -1,10 +1,10 @@
 function callSliders() {
-  densitySlider = createSlider(5, 75, 25, 5);
+  densitySlider = createSlider(5, 75, 15, 5);
   speedSlider = createSlider(0.01, 0.1, 0.03, 0.01);
   rSlider = createSlider(0,255,255,5);
   gSlider = createSlider(0,255,255,5);
   bSlider = createSlider(0,255,255,5);
-  offsetSlider = createSlider(1,5,1,0.5);
+  offsetSlider = createSlider(1,5,1,0.2);
   lightSlider = createSlider(0,255,255,5);
   bhSlider = createSlider(25, 300, 175,5);
 

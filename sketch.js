@@ -30,12 +30,12 @@ function draw() {
       push();
       r = map(sin(xoff),-1,1,0,255);
       g = 0;
-      b = 0; //map(sin(xoff+1),-1,1,0,255);
+      b = map(sin(xoff+1),-1,1,0,255);
       //let d = dist(i - mousex, j - mousey ,250,250); //origin to mouse
       let d = dist(i, j,250,250);
       let d1 = dist(i ,j ,250,250);
       let offset = map(d, 0, maxD, -wi , wi);
-      let bright = map(d1, 0, maxD, 255, 0);
+      let bright = map(d1, 0, maxD, 255, 100);
       let bright1 = map(d1, 0, maxD, 100, 0);
       translate((-width /2 + 13) + i,0,j);
       let h = floor(map(sin(-xoff * 2 + offset),-1,1,25,bh));

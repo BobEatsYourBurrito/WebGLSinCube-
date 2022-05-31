@@ -21,9 +21,9 @@ function callSliders() {
 
 function assignSliders() {
     w = densitySlider.value();
-//     r = rSlider.value();
-//     g = gSlider.value();
-//     b = bSlider.value();
+    r = rSlider.value();
+    g = gSlider.value();
+    b = bSlider.value();
     wi = offsetSlider.value();
     light = lightSlider.value();
     bh = bhSlider.value();

@@ -25,6 +25,6 @@ function assignSliders() {
 //     g = gSlider.value();
 //     b = bSlider.value();
     wi = offsetSlider.value();
-    //light = lightSlider.value();
+    light = lightSlider.value();
     bh = bhSlider.value();
   }

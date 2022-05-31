@@ -28,14 +28,14 @@ function draw() {
   for(let j = 0; j < 500; j += w) {
     for(let i = 0; i < 500; i += w) {
       push();
-      r = map(sin(xoff),-1,1,0,255);
-      g = 0;
-      b = map(sin(xoff+1),-1,1,0,255);
+//       r = map(sin(xoff),-1,1,0,255);
+//       g = 0;
+//       b = map(sin(xoff+1),-1,1,0,255);
       //let d = dist(i - mousex, j - mousey ,250,250); //origin to mouse
       let d = dist(i, j,250,250);
       let d1 = dist(i ,j ,250,250);
       let offset = map(d, 0, maxD, -wi , wi);
-      let bright = map(d1, 0, maxD, 0, 255);
+      let bright = map(d1, 0, maxD, 255, 0);
       let bright1 = map(d1, 0, maxD,100, 255);
       //let bright1 = map(d1, 0, maxD, 100, 0);
       translate((-width /2 + 13) + i,0,j);

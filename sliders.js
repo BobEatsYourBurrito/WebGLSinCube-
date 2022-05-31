@@ -6,6 +6,7 @@ function callSliders() {
   bSlider = createSlider(0,255,255,5);
   offsetSlider = createSlider(1,5,1,0.5);
   lightSlider = createSlider(0,255,255,5);
+  bhSlider = createSlider(25, 300, 175,5);
 
   densitySlider.position(1000, 99);
   speedSlider.position(1000, 119);
@@ -14,6 +15,7 @@ function callSliders() {
   bSlider.position(1000, 179);
   lightSlider.position(1000, 199);
   offsetSlider.position(1000, 219);
+  bhSlider.position(1000, 239);
 
 }
 
@@ -24,4 +26,5 @@ function assignSliders() {
     b = bSlider.value();
     wi = offsetSlider.value();
     light = lightSlider.value();
+    bh = bhSlider.value();
   }
